@@ -1,0 +1,195 @@
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  font-family: 'lato';
+  color: white;
+}
+.navbar
+{
+  display: flex;
+  flex-direction: row;
+  /*position: fixed;*/
+}
+.navbar ul
+{
+  width: 100%;
+  /*height: 20px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+  font-size: 16px;
+}
+.navbar h3
+{
+  width: 200px;
+}
+
+.navbar li
+{
+  padding: 1%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.navbar li:hover
+{
+  background-color: #24890d;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.navbar i:hover
+{
+  background-color: #24890d;
+  color: white;
+}
+.color
+{
+  background-color: #24890d;
+  color: white;
+}
+.placement
+{
+  display: flex;
+  flex-direction: row;
+}
+#menu
+{
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  font-weight: 100;
+  width: 220px;
+  padding-left: 3%;
+}
+/*#menu
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0%;
+}*/
+#menu a
+{
+  width: 180px;
+  height: 40px;
+  border-top: 0.5px;
+  border-bottom: 0.5px;
+  border-color: #202020;
+  display: flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+#menu a:hover
+{
+  background-color: #24890d;
+}
+#menu .icons
+{
+  display: flex;
+  justify-content: space-between;
+}
+#menu img
+{
+  width:80%;
+}
+.album
+{
+  padding-top: 5%;
+}
+.album a:hover
+{
+  background-color: black;
+  color: #24890d;
+}
+.corps-site
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#pochettes
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#pochettes img
+{
+  height:200px;
+}
+#pochettes .titre
+{
+  font-size:11px;
+}
+#pochettes p:hover{
+  color: #24890d;
+}
+
+
+#demo_audiotheme
+{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+
+.centre
+{
+  width: 100%;
+}
+.taille
+{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+h2
+{
+  padding-top: 15%;
+}
+
+.menu-droite
+{
+  width: 40%;
+  padding-right: 3%;
+  font-size: 13px;
+}
+.menu-droite h3
+{
+  padding-top: 10%;
+}
+.menu-droite .name
+{
+  color: #24890d;
+  padding-top: 7%;
+}
+.footer
+{
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  padding-left: 3%;
+}
+
+.video img
+{
+  width: 100%;
+}
+.video p{
+  font-size: 10px;
+}
+span
+{
+  color: #24890d;
+}

@@ -1,0 +1,216 @@
+/* Vos customisations des classes de Bootstrap */
+/*body
+{
+	margin: auto;
+	width: 1160px;
+}*/
+h1, h2, h3
+{
+	font-family: 'Arvo';
+}
+
+/* NAVBAR */
+.container
+{
+	margin: auto;
+	max-width: 990px;
+}
+
+.container img
+{
+	margin-top: 2%;
+	height: 30%;
+	width: auto;
+}
+
+li
+{
+	list-style-type: none;
+	color: #FFFFFF;
+}
+
+/* Div HOME */
+#home
+{
+	display: block;
+}
+
+.jumbotron
+{
+	background-image: url("../images/hero-image.jpg");
+}
+
+#home h1
+{
+	color: #FFFFFF;
+	background-color: transparent;
+	text-align: center;
+	width: 90%;
+}
+
+#home p
+{
+	color: #FFFFFF;
+	margin-top: 3%;
+}
+
+.logo
+{
+	background-image: url("../images/code.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 15%;
+	color: transparent;
+}
+
+/* Div WHO */
+#who
+{
+	display: block;
+	vertical-align: middle;
+	height: auto;
+	width: auto;
+}
+
+.logo-academy
+{
+	background-image: url("../images/academy-brand-med.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: -10%;
+}
+
+#who h2
+{
+	margin-top: -15%;
+	padding-top: 33%;
+	text-align: center;
+	color: #FF0000;
+}
+
+span
+{
+	color: red;
+}
+
+hr
+{
+	width: 12%;
+	height: 1px;
+	background-color: #e74c3c;
+}
+
+p
+{
+	text-align: center;
+}
+
+/* Div GET-INVOLVED */
+#get-involved
+{
+	text-align: center;
+	background-color: #f5f5f5;
+}
+
+#get-involved h3
+{
+	color: #e74c3c;
+}
+
+.row
+{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+#get-involved.container p
+{
+	max-width: 60%;
+	text-align: center;
+}
+
+.btn-default
+{
+	color: #e74c3c;
+}
+
+.row i
+{
+	border-radius: 50px;
+	background-color: #333333;
+	width: 70px;
+	height: 70px;
+	color: #FFFFFF;
+	padding-top: 5%;
+}
+
+/* FOOTER */
+footer
+{
+	background-color: #e74c3c;
+	padding-bottom: 15%;
+}
+
+footer img
+{
+	margin-bottom: -30%;
+}
+
+/* Div BACK-TO-TOP */
+#back-to-top
+{
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+}
+#back-to-top i
+{
+	border-radius: 40px;
+	width: 60%;
+	height: 60%;
+	background-color: #333333;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+	#home h1
+	{
+		font-size:
+	}
+	#home p
+	{
+		float: none;
+	}
+	#who h2
+	{
+		/*margin-top: 5%;*/
+		padding-top: 70%;
+		margin-top: -35%;
+	}
+	.footer img
+	{
+		/*padding-bottom: -15%;*/
+		/*margin-bottom: -15%;*/
+	}
+	.row i
+	{
+		padding-top: 3%;
+	}
+	.btn-default
+	{
+		margin-bottom: 3%;
+	}
+}

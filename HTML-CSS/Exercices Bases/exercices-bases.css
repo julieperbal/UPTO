@@ -1,0 +1,165 @@
+body
+{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+#container
+{
+  /*height: 100%;*/
+  width: 85%;
+  margin: 0 auto;
+}
+.paragraphe
+{
+  display: flex;
+  flex-direction: row;
+  padding-top:30%;
+}
+.paragraphe p
+{
+  width: 700px;
+  height: 300px;
+  flex-direction: column;
+}
+.titres
+{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+span
+{
+  color: red;
+
+}
+.navbar ul
+{
+  display: flex;
+  flex-direction: column;
+}
+.test5
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.test5 p
+{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  text-align: justify;
+  margin-top: -4%;
+}
+.element
+{
+padding-top:5%;
+}
+.images-cascade
+{
+  position:relative;;
+  height: 100%;
+  /*padding-top: 30%;*/
+}
+.img1
+{
+  position:absolute;
+}
+.img2
+{
+  position:absolute;
+  top:100px;
+  left:250px;
+}
+.img3
+{
+  position: absolute;
+  top:200px;
+  left:500px;
+}
+.img1:active
+{
+  z-index: 1;
+}
+.img2:active
+{
+  z-index: 1;
+}
+.img3:active
+{
+  z-index: 1;
+}
+
+.tcolonnes
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20%;
+}
+.container1
+{
+  width: 20%;
+}
+.container2
+{
+  width: 65%;
+}
+.container3
+{
+  width: 15%;
+}
+.container1 img
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.test8
+{
+display: flex;
+flex-direction: row;
+height: 750px;
+}
+.repere1
+{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #123456;
+}
+.repere1 a
+{
+  color: white;
+  line-height: 200%;
+}
+.repere2et3
+{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.repere2
+{
+  width: 100%;
+  height: 150px;
+  background-color: #cccccc;
+}
+.repere2 h2
+{
+  text-align: center;
+}
+.repere3
+{
+height: 600px;
+width: 100%;
+background-color: #098456;
+}
+.repere3 img
+{
+  width:50%;
+  height: 70%;
+  align-items: center;
+}

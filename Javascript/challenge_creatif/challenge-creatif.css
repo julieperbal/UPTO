@@ -1,0 +1,45 @@
+body{
+  padding-top: 100px;
+  margin-left: 50px;
+  background-image: url("http://img0.mxstatic.com/wallpapers/58882bea8523f7959e5685e7ada05822_large.jpeg");
+  background-repeat: no-repeat;
+  background-position: 60% 60%;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+container-main{
+  margin: 0 auto;
+}
+
+#etoile {
+background: #9055A2;
+width: 80px;
+height: 80px;
+position: absolute;
+text-align: center;
+/*-webkit-transform: rotate(20deg);
+-moz-transform: rotate(20deg);
+-ms-transform: rotate(20deg);
+-o-transform: rotate(20deg);
+transform: rotate(20deg);*/
+}
+#etoile:before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+height: 80px;
+width: 80px;
+background: #A593E0;
+/*-webkit-transform: rotate(135deg);
+-moz-transform: rotate(135deg);
+-ms-transform: rotate(135deg);
+-o-transform: rotate(135deg);
+transform: rotate(135deg);*/
+}
+
+#etoile.demarrage{
+  transition: all 10s ease;
+  left: 845px;
+}

@@ -1,0 +1,259 @@
+body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.container-main
+{
+  display: flex;
+  flex-direction: row;
+}
+
+/*<!--~~~~~~~~ 1er écran ~~~~~~~~-->*/
+#ecran1
+{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top
+{
+  height: 80px;
+  background-color: #1E90FF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 5px;
+  border-color: #2E8B57;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.top i
+{
+  color: white;
+  height: 50px;
+  width: 50px;
+}
+.container-docs
+{
+  background-color: MenuText;
+}
+.first-title
+{
+  color: grey;
+  font-family: sans-serif;
+  margin-bottom: 3%;
+  margin-left: 8%;
+}
+
+/*<!--~~~~~~~~ Premier Block ~~~~~~~~-->*/
+.first-bloc
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-lign
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 0.5px;
+  border-color: #808080;
+  height: 70px;
+  width: 95%;
+  background-color: white;
+}
+.second-lign
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 0.5px;
+  border-color: #808080;
+  height: 70px;
+  width: 95%;
+  background-color: white;
+}
+.third-lign
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 0.5px;
+  border-color: #808080;
+  height: 70px;
+  width: 95%;
+  background-color: white;
+}
+.logo
+{
+  height: 100%;
+  width: 15%;
+  color: #1E90FF;
+  background-color: MenuText;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text .logo2
+{
+  background-color: white;
+  z-index: 2;
+
+}
+.logo2
+{
+  margin-right: 5%;
+}
+.text
+{
+  font-family: sans-serif;
+  padding-right: 28%;
+}
+.text2
+{
+  font-family: sans-serif;
+  padding-right: 30%;
+}
+.text3
+{
+  font-family: sans-serif;
+  padding-right: 10%;
+}
+h4
+{
+  color: black;
+  margin-top: 2%;
+}
+p
+{
+  margin-bottom: 2%;
+  color: #D3D3D3;
+}
+
+/*<!--~~~~~~~~ Second Block ~~~~~~~~-->*/
+.second-title
+{
+  color: grey;
+  font-family: sans-serif;
+  margin-bottom: 2%;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+.second-bloc
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lign1
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 0.5px;
+  border-color: #808080;
+  height: 70px;
+  width: 95%;
+  background-color: white;
+}
+.lign2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 0.5px;
+  border-color: #808080;
+  height: 70px;
+  width: 95%;
+  background-color: white;
+}
+.lign3
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 0.5px;
+  border-color: #808080;
+  height: 70px;
+  width: 95%;
+  background-color: white;
+}
+.lign4
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 0.5px;
+  border-color: #808080;
+  height: 70px;
+  width: 95%;
+  background-color: white;
+}
+.text-2
+{
+  font-family: sans-serif;
+  padding-right: 20%;
+}
+
+/*<!--~~~~~~~~ Bouton fixe ~~~~~~~~-->*/
+#logo-end
+{
+	width: 70px;
+	height: 70px;
+	position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  opacity: 0.8;
+  bottom: 0;
+  left: 30%;
+}
+#logo-end i
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 40px;
+	width: 70%;
+	height: 70%;
+	background-color: #1E90FF;
+	color: white;
+	text-align: center;
+}
+
+
+/*<!--~~~~~~~~ 2ème écran ~~~~~~~~-->*/
+#ecran2
+{
+  width: 40%;
+  height: 100%;
+}
+.top
+{
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 5px;
+  border-color: #2E8B57;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
