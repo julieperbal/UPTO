@@ -29,14 +29,15 @@ function selectionne (e){
 
 // ETAPE 4 - Bouton qui réinitialise la partie
 function reset(e){
+  $compteur=0;
   for (var i=0; i < $case.length; i++) { // POUR les cases de mon tableaux
-    //si les éléments de mon tableau (i) sont inféreiurs au nombre de cases (ils s'incrémentent en fonction au fur et à mesur du jeu)
+    //si les éléments de mon tableau (i) sont inféreiurs au nombre de cases (ils s'incrémentent au fur et à mesure du jeu)
     if ($case[i].classList.contains("player1")){//SI les cases contiennent la classe "player1"
       $case[i].classList.remove("player1");//Supprime cette classe
     }
     else {
-      $case[i].classList.contains("player2");//SINON les classes qui contiennent la classe "player2"
-      $case[i].classList.add("remove");//supprimer cette classe
+      $case[i].classList.contains("player2");//SINON les cases qui contiennent la classe "player2"
+      $case[i].classList.remove("player2");//supprimer cette classe
     }
   }
 }
@@ -59,25 +60,24 @@ function win(){
       alert("player1 a gagné!");
       reset();
     }
-}
-    // else if (
-    //   //horizontal
-    //   ($case[0].classList.contains("player2") && $case[1].classList.contains("player2") && $case[2].classList.contains("player2")) ||
-    //   ($case[3].classList.contains("player2") && $case[4].classList.contains("player2") && $case[5].classList.contains("player2")) ||
-    //   ($case[6].classList.contains("player2") && $case[7].classList.contains("player2") && $case[8].classList.contains("player2")) ||
-    //   //vertical
-    //   ($case[0].classList.contains("player2") && $case[3].classList.contains("player2") && $case[6].classList.contains("player2")) ||
-    //   ($case[1].classList.contains("player2") && $case[4].classList.contains("player2") && $case[7].classList.contains("player2")) ||
-    //   ($case[2].classList.contains("player2") && $case[5].classList.contains("player2") && $case[8].classList.contains("player2")) ||
-    //   //diagonal
-    //   ($case[0].classList.contains("player2") && $case[4].classList.contains("player2") && $case[8].classList.contains("player2")) ||
-    //   ($case[2].classList.contains("player2") && $case[4].classList.contains("player2") && $case[6].classList.contains("player2")) )
-    //   {
-    //     alert("player2 a gagné!");
-    //     reset();
-    //   }
-    //
-    // }
+    else if (
+      //horizontal
+      ($case[0].classList.contains("player2") && $case[1].classList.contains("player2") && $case[2].classList.contains("player2")) ||
+      ($case[3].classList.contains("player2") && $case[4].classList.contains("player2") && $case[5].classList.contains("player2")) ||
+      ($case[6].classList.contains("player2") && $case[7].classList.contains("player2") && $case[8].classList.contains("player2")) ||
+      //vertical
+      ($case[0].classList.contains("player2") && $case[3].classList.contains("player2") && $case[6].classList.contains("player2")) ||
+      ($case[1].classList.contains("player2") && $case[4].classList.contains("player2") && $case[7].classList.contains("player2")) ||
+      ($case[2].classList.contains("player2") && $case[5].classList.contains("player2") && $case[8].classList.contains("player2")) ||
+      //diagonal
+      ($case[0].classList.contains("player2") && $case[4].classList.contains("player2") && $case[8].classList.contains("player2")) ||
+      ($case[2].classList.contains("player2") && $case[4].classList.contains("player2") && $case[6].classList.contains("player2")) )
+      {
+        alert("player2 a gagné!");
+        reset();
+      }
+
+    }
 
 $button.onclick = reset;
 $jeu.onclick = selectionne;
