@@ -1,0 +1,11 @@
+
+public class firstClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("Hello Word");
+		System.out.print("My name is");
+		System.out.print("cysboy");
+	}
+
+}
