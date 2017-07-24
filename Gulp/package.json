@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gulp-install": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0"
+  }
+}

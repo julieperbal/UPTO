@@ -1,0 +1,40 @@
+
+
+.navbar-default {border-color: rgba(160,160,160,.2);}
+.navbar-default .navbar-collapse {border-color:transparent}
+
+.navbar-default {background-color: transparent;}
+.navbar-brand, .navbar-default .navbar-nav > li > a {color: #777;}
+
+.section1, .section2, .section3, .section4, .section5, .section6 {background-color:#333; padding: 250px 0; background-size:cover}
+.section1 {background-image:url('industrie.jpg')}
+.section2 {background-image:url('city-aurore-blur.jpg')}
+.section3 {background-image:url('sun-nuage.jpg')}
+.section4 {background-image:url('phare-night-red-line-min.jpg')}
+.section5 {background-image:url('phare-blanc.jpg')}
+.section6 {background-image:url('sea-night.jpg')}
+
+.midnightHeader.default {background-color:#fff;color: black;}
+
+.midnightHeader.white {background-color:#fff;color: black;}
+
+.midnightHeader.transp {background-color:transparent;color: white; }
+.midnightHeader.transp .navbar-brand, .midnightHeader.transp .navbar-nav > li > a {color: #fff; }
+
+.midnightHeader.blue {background-color:#17b3cb;color: white;}
+.midnightHeader.blue .navbar-brand, .midnightHeader.blue .navbar-nav > li > a {color: #fff;}
+
+.midnightHeader.red {background-color:red;color: white;}
+.midnightHeader.red .navbar-brand, .midnightHeader.red .navbar-nav > li > a {color: #fff;}
+
+.midnightHeader.dark {background-color:#333;color: white;}
+.midnightHeader.dark .navbar-brand, .midnightHeader.dark .navbar-nav > li > a {color: #fff;}
+
+.midnightHeader.orange {background-color:#ee6215;color: white;}
+.midnightHeader.orange .navbar-brand, .midnightHeader.orange .navbar-nav > li > a {color: #fff;}
+
+.jumbotron {border:2px solid #fff; background:rgba(255,255,255,.1);text-align: center;color: #fff;text-shadow: 1px 0px 1px #000;}
+.section5 .jumbotron {text-align: center;color: #333;text-shadow: none;background:rgba(255,255,255,.8);}
+
+footer {background:#2b2b2b; padding:20px 0 35px 0; color:#fff; border-top:3px solid #111}
+footer h1 {margin-top: 10px;margin-bottom: 30px;}
